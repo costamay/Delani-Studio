@@ -44,3 +44,33 @@
 .fontsize {
     font-size: cal(1vh + 1vw + .5vmin);
 }
+
+
+h6 {
+    height: 1vh;
+}
+
+#about,
+#service,
+#pple,
+.specific,
+#contact,
+.footer p {
+    font-family: 'Merienda', cursive;
+}
+.col-md-12 {
+    width: 100%;
+    color: #fff;
+    font-family: 'Akronim', cursive;
+    font-size: calc(1vw + 1vh + .5vmin);
+    font-size: 1.1em;
+}
+h1 {
+    font-family: 'Akronim', cursive;
+}
+.whatWeDo {
+    margin-bottom: 4%;
+}
+.hideMe {
+    display: none;
+}
