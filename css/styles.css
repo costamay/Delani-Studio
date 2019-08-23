@@ -1,0 +1,52 @@
+
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    } 
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+}
+#head{
+    background-image: url('../images/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#first {
+    padding-top: 14%;
+    margin-bottom: 9%;
+}
+
+h6 {
+    height: 1vh;
+}
+
+#about,
+#service,
+#pple,
+.specific,
+#contact,
+.footer p {
+    font-family: 'Merienda', cursive;
+}
+.col-md-12 {
+    width: 100%;
+    color: #fff;
+    font-family: 'Akronim', cursive;
+    font-size: calc(1vw + 1vh + .5vmin);
+    font-size: 1.1em;
+}
+h1 {
+    font-family: 'Akronim', cursive;
+}
