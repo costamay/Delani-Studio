@@ -31,7 +31,7 @@
     padding-top: 9%;
     margin-bottom: 3%;
 }
-.image2 {
+.mouse {
     margin-top: 20%;
     padding: 35px 0;
     margin-bottom: 20%;
@@ -53,7 +53,7 @@ h6 {
 #about,
 #service,
 #pple,
-.specific,
+.whatWeDo,
 #contact,
 .footer p {
     font-family: 'Merienda', cursive;
@@ -73,4 +73,36 @@ h1 {
 }
 .hideMe {
     display: none;
+}
+#service {
+    background-image: url('../images/backgrounds/s_image.jpg');
+    color: #fff;
+    margin-bottom: 50px;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+#portfolio img {
+    width: 100%;
+}
+.card:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.card-1 {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.582);
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
+}
+.card {
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+.card-deck {
+    padding: 1% 4%;
 }
