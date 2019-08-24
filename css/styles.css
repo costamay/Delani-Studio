@@ -121,6 +121,7 @@ h1 {
     margin: 20% 5%;
     overflow: hidden;
     letter-spacing: 2px;
+    text-align: center;
     font-family: 'Carter One', cursive;
 }
 #contact {
@@ -132,11 +133,13 @@ h1 {
 .form-cont input {
     width: 49%;
     background: transparent;
+    color: white;
 }
 .form-cont textarea {
     margin-top: 10px;
     width: 100%;
     background: transparent;
+    color: white;
 }
 .form-cont {
     text-align: center;
@@ -145,6 +148,7 @@ h1 {
     max-width: 100%;
     left: 50%;
     transform: translate(-50%);
+
 }
 ::placeholder{
     font-size: 10px;
