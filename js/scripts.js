@@ -11,4 +11,11 @@ $(document).ready(function(){
       });
       event.preventDefault();
     });
+
+    $('form#myForm').submit(function(){
+      var name = $('#name').val();
+      var pass = $('#email').val();
+      var mess = $('#mess').val();
+      alert("Hi " +name+ " we are have received your message and we will get in touch");
+    });
 });
