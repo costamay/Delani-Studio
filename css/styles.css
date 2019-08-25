@@ -173,3 +173,6 @@ h1 {
 #links{
     margin:50px;
 }
+body{
+    overflow-x: hidden;
+}
