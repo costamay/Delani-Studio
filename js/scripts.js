@@ -9,8 +9,9 @@ $(document).ready(function(){
       $(".card").hover(function () {
         $(this).children(".card-1").fadeToggle('fast', "linear");
       });
+      });
       event.preventDefault();
-    });
+    
 
     $('form#myForm').submit(function(){
       var name = $('#name').val();
@@ -18,4 +19,11 @@ $(document).ready(function(){
       var mess = $('#mess').val();
       alert("Hi " +name+ " we have received your message and we will get in touch. Thank you for contacting us.");
     });
+    
+    $("button").on('click', function(){
+      $('form').each(function(){
+        this.reset();
+      });
+    
+});
 });
