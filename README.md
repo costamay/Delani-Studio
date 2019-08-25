@@ -6,12 +6,12 @@
 ## Description
 This is a project that details what Delani Studio does and their works. Additionally, it allows users to send messages and receive alert confirmations upon receival of the messages by the company.
 ## Project live site
-  This is the live .[ Click for the demo]()
+  This is the live .[ Click for the demo](https://costamay.github.io/Delani-Studio/)
 
   ![Image](images/Selection_019.png)
 
 ## Setup instructions
-* Clone the program from [Online repo]()
+* Clone the program from [Online repo](https://costamay.github.io/Delani-Studio/)
 * Click on the green button to clone or download
 
 ## Behavior Driven Development
@@ -54,6 +54,6 @@ This is a project that details what Delani Studio does and their works. Addition
 ## Support and contact details
 contact me @ titusouko@gmail.com
 ### License
-The project is under[MIT license](/blob/master/LICENSE)
+The project is under[MIT license](https://costamay.github.io/Delani-Studio/blob/master/LICENSE)
 Copyright &copy; 2019.All rigths reserved
   
